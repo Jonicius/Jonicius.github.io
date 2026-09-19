@@ -1,0 +1,245 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>João Vinicius Martins — Mechanical Designer · Special Machines & Automation</title>
+<meta name="description" content="Mechanical designer from Brazil. Special machines, cartesian gantries, conveyors, end-of-arm tooling and manufacturing drawings in Autodesk Inventor and Creo. Available for remote freelance work worldwide.">
+<meta property="og:title" content="João Vinicius Martins — Mechanical Designer">
+<meta property="og:description" content="Special machines, gantries, conveyors and tooling. Inventor · Creo · AutoCAD. Remote, worldwide.">
+<meta property="og:image" content="img/og.jpg">
+<meta property="og:type" content="website">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Inter:wght@400;600&family=JetBrains+Mono:wght@400;700&display=swap" rel="stylesheet">
+<style>
+:root{--paper:#F4F4F0;--ink:#111;--red:#E61919;--line:#111;--mute:#5c5c58}
+*{box-sizing:border-box;margin:0;padding:0;border-radius:0}
+html{scroll-behavior:smooth}
+body{background:var(--paper);color:var(--ink);font:400 17px/1.55 Inter,system-ui,sans-serif}
+a{color:inherit}
+img{display:block;max-width:100%;height:auto}
+.mono{font:400 12px/1.4 "JetBrains Mono",monospace;letter-spacing:.08em;text-transform:uppercase}
+.red{color:var(--red)}
+h1,h2,h3{font-family:"Archivo Black",Inter,sans-serif;text-transform:uppercase;letter-spacing:-.04em;line-height:.9;font-weight:400}
+h1{font-size:clamp(3rem,10.5vw,11rem)}
+h2{font-size:clamp(2.4rem,6vw,5.5rem)}
+h3{font-size:clamp(1.5rem,3vw,2.6rem);letter-spacing:-.03em;line-height:.95}
+.wrap{max-width:1500px;margin:0 auto;border-left:1px solid var(--line);border-right:1px solid var(--line)}
+header{position:sticky;top:0;z-index:5;background:var(--paper);border-bottom:2px solid var(--line)}
+header .wrap{display:flex;justify-content:space-between;align-items:center;gap:16px;padding:12px 20px}
+nav{display:flex;gap:22px}
+nav a{text-decoration:none}
+nav a:hover,.cta:hover{color:var(--red)}
+.hero{display:grid;grid-template-columns:1.05fr 1fr;border-bottom:2px solid var(--line)}
+.hero>div{padding:clamp(20px,4vw,56px)}
+.hero .pic{border-left:1px solid var(--line);display:flex;align-items:center;background:#fff}
+.hero p.lead{max-width:34em;margin:28px 0;font-size:1.15rem}
+.cta{display:inline-block;border:2px solid var(--ink);padding:14px 22px;text-decoration:none;font:700 13px "JetBrains Mono",monospace;letter-spacing:.1em;text-transform:uppercase;margin:0 10px 10px 0}
+.cta.fill{background:var(--red);border-color:var(--red);color:#fff}
+.cta.fill:hover{background:var(--ink);border-color:var(--ink);color:#fff}
+.strip{display:grid;grid-template-columns:repeat(4,1fr);gap:1px;background:var(--line);border-bottom:2px solid var(--line)}
+.strip div{background:var(--paper);padding:22px 20px}
+.strip b{display:block;font:400 clamp(2rem,4.5vw,4rem)/1 "Archivo Black",sans-serif;letter-spacing:-.04em}
+section>.head{display:flex;justify-content:space-between;align-items:end;gap:20px;padding:clamp(28px,5vw,70px) 20px 24px;border-bottom:2px solid var(--line)}
+.project{display:grid;grid-template-columns:1fr 1.25fr;border-bottom:2px solid var(--line)}
+.project:nth-of-type(even) .info{order:2;border-left:1px solid var(--line);border-right:0}
+.project .info{padding:clamp(20px,3vw,44px);border-right:1px solid var(--line);display:flex;flex-direction:column;gap:20px}
+.project .num{font:400 clamp(4rem,9vw,9rem)/.8 "Archivo Black",sans-serif;letter-spacing:-.06em;color:var(--red)}
+.project .media{background:#fff;display:grid;grid-template-rows:1fr auto}
+.project .main{padding:24px;display:flex;align-items:center;justify-content:center}
+.project .main img{max-height:620px;object-fit:contain}
+.thumbs{display:grid;grid-template-columns:repeat(3,1fr);gap:1px;background:var(--line);border-top:1px solid var(--line)}
+.thumbs a{background:#fff;padding:12px;display:flex;align-items:center;justify-content:center;aspect-ratio:4/3}
+.thumbs img{max-height:100%;object-fit:contain}
+dl{display:grid;grid-template-columns:auto 1fr;gap:1px;background:var(--line);border:1px solid var(--line)}
+dl dt,dl dd{background:var(--paper);padding:8px 12px}
+dl dt{color:var(--mute)}
+.tags{display:flex;flex-wrap:wrap;gap:6px}
+.tags span{border:1px solid var(--ink);padding:3px 8px}
+.grid3{display:grid;grid-template-columns:repeat(3,1fr);gap:1px;background:var(--line);border-bottom:2px solid var(--line)}
+.grid3>div{background:var(--paper);padding:clamp(20px,3vw,40px)}
+.grid3 h3{margin:14px 0 12px;font-size:1.45rem}
+.about{display:grid;grid-template-columns:1fr 1fr;border-bottom:2px solid var(--line)}
+.about>div{padding:clamp(20px,4vw,56px)}
+.about>div+div{border-left:1px solid var(--line)}
+.about p{margin-bottom:16px;max-width:38em}
+.tl{list-style:none}
+.tl li{display:grid;grid-template-columns:110px 1fr;gap:16px;padding:14px 0;border-top:1px solid var(--line)}
+.tl li:last-child{border-bottom:1px solid var(--line)}
+.tl b{display:block}
+.contact{padding:clamp(40px,8vw,120px) 20px;border-bottom:2px solid var(--line)}
+.contact a.mail{font:400 clamp(1.4rem,4.6vw,4.5rem)/1 "Archivo Black",sans-serif;letter-spacing:-.04em;text-transform:uppercase;text-decoration:none;border-bottom:6px solid var(--red);word-break:break-all}
+.contact a.mail:hover{color:var(--red)}
+footer .wrap{display:flex;justify-content:space-between;gap:16px;padding:16px 20px;flex-wrap:wrap}
+@media(max-width:900px){
+ .hero,.project,.about{grid-template-columns:1fr}
+ .hero .pic,.about>div+div{border-left:0;border-top:1px solid var(--line)}
+ .project .info,.project:nth-of-type(even) .info{order:0;border:0;border-bottom:1px solid var(--line)}
+ .strip{grid-template-columns:repeat(2,1fr)} .grid3{grid-template-columns:1fr}
+ nav{display:none}
+}
+</style>
+</head>
+<body>
+<header><div class="wrap mono">
+  <a href="#top" style="text-decoration:none"><b>JVM</b> / Mechanical Design</a>
+  <nav><a href="#work">Work</a><a href="#services">Services</a><a href="#about">About</a><a href="#contact">Contact</a></nav>
+  <span><span class="red">●</span> Available · Remote worldwide</span>
+</div></header>
+
+<main class="wrap" id="top">
+<div class="hero">
+  <div>
+    <p class="mono">João Vinicius Martins — Manaus, Brazil — UTC−4</p>
+    <h1 style="margin-top:18px">Special<br>machine<br><span class="red">design</span></h1>
+    <p class="lead">I design automation equipment — cartesian gantries, conveyors, feeders and end-of-arm tooling — from concept to fully detailed 3D assemblies and manufacturing drawings. Autodesk Inventor, Creo and AutoCAD.</p>
+    <a class="cta fill" href="#contact">Hire me</a><a class="cta" href="#work">See the machines</a><a class="cta" href="cv-joao-martins.pdf">CV (PDF)</a>
+  </div>
+  <div class="pic"><img src="img/maquina2_000_SUBMODULO_MODEM_2_ASM_iso1.webp" alt="Gantry loading cell with safety fencing and tray trolleys, 3D CAD model" width="1500" height="1100"></div>
+</div>
+
+<div class="strip mono">
+  <div><b>05</b>machine modules shown here</div>
+  <div><b>330+</b>assemblies modeled</div>
+  <div><b>1,300+</b>part files managed</div>
+  <div><b>3</b>CAD platforms · Inventor / Creo / AutoCAD</div>
+</div>
+
+<section id="work">
+<div class="head"><h2>Selected<br>work</h2><p class="mono" style="max-width:36em;text-align:right">R&amp;D project, 2024 — automated packaging line for consumer telecom devices. Four robotic stations fed by one transfer conveyor. My role: mechanical design and 3D modeling within the project team. Client details withheld.</p></div>
+
+<article class="project">
+  <div class="info">
+    <div class="num">01</div>
+    <h3>Gantry loading cell with tray trolleys</h3>
+    <p>Three-axis cartesian gantry that picks devices from multi-level tray trolleys and loads them onto the line. Trolleys dock on floor rails and are locked by a pneumatic latch; the cell is fully enclosed by mesh safety guarding with access doors.</p>
+    <dl class="mono"><dt>Envelope</dt><dd>5.4 × 3.7 × 2.7 m</dd><dt>Unique components</dt><dd>328</dd><dt>Motion</dt><dd>Belt-driven X/Y, electric Z, cable carriers</dd><dt>Scope</dt><dd>Frame, gantry, Z-axis, gripper tool, trolleys, docking</dd></dl>
+    <div class="tags mono"><span>Inventor</span><span>Gantry</span><span>Machine guarding</span><span>Weldment frame</span></div>
+  </div>
+  <div class="media">
+    <div class="main"><img loading="lazy" src="img/maquina2_00_CARTESIANO_MODEM_01_ASM_iso1.webp" alt="Cartesian gantry cell with yellow mesh guarding"></div>
+    <div class="thumbs">
+      <a href="img/maquina2_00_CARRINHO_MODEM_6D_ASM_iso1.webp"><img loading="lazy" src="img/maquina2_00_CARRINHO_MODEM_6D_ASM_iso1.webp" alt="Multi-level tray trolley"></a>
+      <a href="img/maquina2_00_CONJUNTO_FERRAMENTA_MODEM_2_ASM_iso1.webp"><img loading="lazy" src="img/maquina2_00_CONJUNTO_FERRAMENTA_MODEM_2_ASM_iso1.webp" alt="End-of-arm tool for device handling"></a>
+      <a href="img/maquina2_CONJUNTO_EIXO_Z_MODEM_2_ASM_iso1.webp"><img loading="lazy" src="img/maquina2_CONJUNTO_EIXO_Z_MODEM_2_ASM_iso1.webp" alt="Z axis with cable carrier"></a>
+    </div>
+  </div>
+</article>
+
+<article class="project">
+  <div class="info">
+    <div class="num">02</div>
+    <h3>Pick &amp; place cell with gravity flow-rack feeder</h3>
+    <p>Cartesian pick &amp; place station for power adapters. Totes with dividers arrive on an inclined roller flow rack; a vision-guided gripper with vacuum cups picks each part and places it into the product box. Empty totes return on the lower level.</p>
+    <dl class="mono"><dt>Envelope</dt><dd>3.9 × 2.6 × 1.2 m</dd><dt>Unique components</dt><dd>362</dd><dt>Motion</dt><dd>SMC LEFB belt axes 1400 / 600 mm, LEYG guided Z</dd><dt>Scope</dt><dd>Gantry, gripper, camera mount, flow rack, structure</dd></dl>
+    <div class="tags mono"><span>Inventor</span><span>Pick &amp; place</span><span>Vacuum gripper</span><span>Electric actuators</span></div>
+  </div>
+  <div class="media">
+    <div class="main"><img loading="lazy" src="img/maquina1_000_SUBMODULO_FONTE_5_ASM_iso1.webp" alt="Pick and place cell with flow rack feeder"></div>
+    <div class="thumbs">
+      <a href="img/maquina1_00_CONJ_GARRA_FONTE-08_ASM_iso1.webp"><img loading="lazy" src="img/maquina1_00_CONJ_GARRA_FONTE-08_ASM_iso1.webp" alt="Gripper with vacuum cups, camera field of view and cable carriers"></a>
+      <a href="img/maquina1_00_CART_FONTE_EIXO-X_06_ASM_iso1.webp"><img loading="lazy" src="img/maquina1_00_CART_FONTE_EIXO-X_06_ASM_iso1.webp" alt="X axis carriage assembly"></a>
+      <a href="img/maquina1_CONJ_ESTRUT_ESTEIRA_FONTE_2_ASM_iso1.webp"><img loading="lazy" src="img/maquina1_CONJ_ESTRUT_ESTEIRA_FONTE_2_ASM_iso1.webp" alt="Two-level gravity flow rack with totes"></a>
+    </div>
+  </div>
+</article>
+
+<article class="project">
+  <div class="info">
+    <div class="num">03</div>
+    <h3>Label print &amp; apply station</h3>
+    <p>Enclosed station with two industrial label print engines, a cartesian applicator and a box dispenser. Includes a custom motorized label-drive roller, pick trays at the printer outlet and a pneumatic box pusher.</p>
+    <dl class="mono"><dt>Envelope</dt><dd>2.3 × 1.6 × 1.6 m</dd><dt>Unique components</dt><dd>381</dd><dt>Motion</dt><dd>Belt axes, servo-driven roller, pneumatic pusher</dd><dt>Scope</dt><dd>Base cabinet, gantry, printer mounts, roller, dispenser</dd></dl>
+    <div class="tags mono"><span>Inventor</span><span>Labeling</span><span>Servo drive</span><span>Aluminium profile</span></div>
+  </div>
+  <div class="media">
+    <div class="main"><img loading="lazy" src="img/maquina3_000_SUBMODULO_IMPRESSORAS_1_ASM_iso1.webp" alt="Label print and apply station"></div>
+    <div class="thumbs">
+      <a href="img/maquina3_CONJUNTO_ZEBRA_3_ASM_iso1.webp"><img loading="lazy" src="img/maquina3_CONJUNTO_ZEBRA_3_ASM_iso1.webp" alt="Print engine mount with label roll and pick tray"></a>
+      <a href="img/maquina3_0_CONJUNTO_CARTESIANO_IMPRES_2_ASM_iso1.webp"><img loading="lazy" src="img/maquina3_0_CONJUNTO_CARTESIANO_IMPRES_2_ASM_iso1.webp" alt="Cartesian applicator on frame"></a>
+      <a href="img/maquina3_CONJUNTO_ROLO_MOTRIZ_LABEL_4_ASM_iso1.webp"><img loading="lazy" src="img/maquina3_CONJUNTO_ROLO_MOTRIZ_LABEL_4_ASM_iso1.webp" alt="Motorized label drive roller with coupling"></a>
+    </div>
+  </div>
+</article>
+
+<article class="project">
+  <div class="info">
+    <div class="num">04</div>
+    <h3>Leaflet insertion module</h3>
+    <p>Station that feeds printed leaflets from a magazine, picks them with a vacuum gripper and inserts them into the box. Ball-screw driven mechanism, pickup conveyor on aluminium profile and a gantry on a welded frame.</p>
+    <dl class="mono"><dt>Envelope</dt><dd>2.2 × 2.0 × 1.3 m</dd><dt>Unique components</dt><dd>292</dd><dt>Motion</dt><dd>Ball screw 16×5, belt axes, LEYG guided rod actuator</dd><dt>Scope</dt><dd>Feeder, gripper, gantry, pickup conveyor</dd></dl>
+    <div class="tags mono"><span>Inventor</span><span>Feeder</span><span>Ball screw</span><span>Vacuum handling</span></div>
+  </div>
+  <div class="media">
+    <div class="main"><img loading="lazy" src="img/maquina4_000_SUBMODULO_FLIER_2_ASM_iso1.webp" alt="Leaflet insertion module"></div>
+    <div class="thumbs">
+      <a href="img/maquina4_00_FLIER_CARTESIANO_PRINCIPA_02_ASM_iso1.webp"><img loading="lazy" src="img/maquina4_00_FLIER_CARTESIANO_PRINCIPA_02_ASM_iso1.webp" alt="Main gantry on welded frame"></a>
+      <a href="img/maquina4_00_FLIER_ESTEIRA_COLETA_02_ASM_iso1.webp"><img loading="lazy" src="img/maquina4_00_FLIER_ESTEIRA_COLETA_02_ASM_iso1.webp" alt="Pickup conveyor on aluminium profile stand"></a>
+      <a href="img/maquina4_00_FLIER_ALIMENTADOR_02_ASM_iso1.webp"><img loading="lazy" src="img/maquina4_00_FLIER_ALIMENTADOR_02_ASM_iso1.webp" alt="Leaflet feeder magazine on stand"></a>
+    </div>
+  </div>
+</article>
+
+<article class="project">
+  <div class="info">
+    <div class="num">05</div>
+    <h3>Twin-belt transfer conveyor</h3>
+    <p>4.7 m transfer conveyor linking the stations. Twin belts on a common gearmotor, adjustable side guides, pneumatic stoppers and ejector, sensor brackets and a driven-roller section. Designed for quick guide changeover between box sizes.</p>
+    <dl class="mono"><dt>Length</dt><dd>4.75 m</dd><dt>Unique components</dt><dd>212</dd><dt>Motion</dt><dd>Gearmotor belt drive, pneumatic stoppers / ejector</dd><dt>Scope</dt><dd>Conveyor, guides, stoppers, supports, sensors</dd></dl>
+    <div class="tags mono"><span>Inventor</span><span>Conveyor</span><span>Pneumatics</span><span>Changeover</span></div>
+  </div>
+  <div class="media">
+    <div class="main"><img loading="lazy" src="img/maquina5_00_ESTEIRA_PRINCIPAL_03_ASM_iso1.webp" alt="Twin-belt transfer conveyor"></div>
+    <div class="thumbs" style="grid-template-columns:repeat(2,1fr)">
+      <a href="img/maquina5_00_CONJ_ESTEIRA_CONJUGADA-C_03_ASM_iso1.webp"><img loading="lazy" src="img/maquina5_00_CONJ_ESTEIRA_CONJUGADA-C_03_ASM_iso1.webp" alt="Conjugated conveyor assembly"></a>
+      <a href="img/maquina5_00_ESTEIRA_PRINCIPAL_03_ASM_top.webp"><img loading="lazy" src="img/maquina5_00_ESTEIRA_PRINCIPAL_03_ASM_top.webp" alt="Conveyor top view"></a>
+    </div>
+  </div>
+</article>
+</section>
+
+<section id="services">
+<div class="head"><h2>What I<br>can do<br>for you</h2><p class="mono">Fixed price or hourly · NDA welcome</p></div>
+<div class="grid3">
+  <div><p class="mono red">S/01</p><h3>3D machine design</h3><p>Concept to complete parametric assemblies: frames, gantries, conveyors, jigs, fixtures and grippers. Inventor or Creo, native files plus STEP.</p></div>
+  <div><p class="mono red">S/02</p><h3>Manufacturing drawings</h3><p>Fully dimensioned 2D drawings for machining, sheet metal and weldments, with BOMs and material take-off ready for quoting.</p></div>
+  <div><p class="mono red">S/03</p><h3>Pneumatics</h3><p>Electro-pneumatic circuit design and simulation in FluidSIM, actuator and valve selection, integration of catalogue components.</p></div>
+  <div><p class="mono red">S/04</p><h3>Design for 3D printing</h3><p>Functional FDM parts, prototypes and shop-floor fixtures — designed around real print constraints, not just exported to STL.</p></div>
+  <div><p class="mono red">S/05</p><h3>2D → 3D &amp; CAD conversion</h3><p>Legacy DWG or paper drawings rebuilt as clean 3D models. Conversion between Inventor, Creo, STEP and IGES.</p></div>
+  <div><p class="mono red">S/06</p><h3>Shop-floor sense</h3><p>Toolroom and maintenance background: I have followed parts through CNC machining, grinding, wire and sinker EDM, heat treatment and polishing.</p></div>
+</div>
+</section>
+
+<section id="about">
+<div class="head"><h2>About</h2><p class="mono">Portuguese native · English intermediate · French basic</p></div>
+<div class="about">
+  <div>
+    <p>I am a mechanical engineering student (graduating 2027) and certified mechanical technician from Manaus, in the Brazilian Amazon — home to one of the largest industrial hubs in Latin America.</p>
+    <p>I started on the shop floor doing mechanical maintenance at a tyre plant, moved into R&amp;D machine design, and today I design machines and tooling in the toolroom of a global consumer-goods manufacturer.</p>
+    <p>That path means I draw parts knowing how they will be machined, assembled and maintained. I am looking for freelance design work and machine-design positions abroad.</p>
+    <div class="tags mono" style="margin-top:24px"><span>Autodesk Inventor</span><span>PTC Creo</span><span>AutoCAD</span><span>FluidSIM</span><span>FDM 3D printing</span><span>Technical drawing</span><span>Metrology</span><span>Power Apps / Automate</span></div>
+  </div>
+  <div>
+    <ul class="tl">
+      <li><span class="mono">2025 — now</span><div><b>Machine Design Intern, Toolroom</b>BIC Amazônia · design of machines, devices and tooling; fabrication follow-up</div></li>
+      <li><span class="mono">2024</span><div><b>Mechanical Designer, R&amp;D project</b>Automated packaging line — the five modules above</div></li>
+      <li><span class="mono">2023</span><div><b>Researcher, additive manufacturing</b>IFAM · feasibility of 3D-printed assistive technology; workshops taught</div></li>
+      <li><span class="mono">2023</span><div><b>Basic Metrology Instructor</b>CETAM / IPEM</div></li>
+      <li><span class="mono">2022</span><div><b>Mechanical Maintenance Intern</b>Michelin · corrective and preventive maintenance, pneumatics</div></li>
+      <li><span class="mono">Education</span><div><b>B.Eng. Mechanical Engineering</b>IFAM — Federal Institute of Amazonas (2027) · Mechanical Technician diploma, IFAM (2022)</div></li>
+    </ul>
+  </div>
+</div>
+</section>
+
+<section id="contact" class="contact">
+  <p class="mono" style="margin-bottom:24px"><span class="red">●</span> Send drawings, a sketch or just the problem — I reply within 24 h</p>
+  <a class="mail" href="mailto:jvmmartins2004@gmail.com?subject=Project%20inquiry">jvmmartins2004@gmail.com</a>
+  <p class="mono" style="margin-top:28px">Manaus, Brazil · UTC−4 · overlaps with Americas all day and Europe mornings</p>
+</section>
+</main>
+
+<footer><div class="wrap mono"><span>© 2026 João Vinicius Martins</span><span>All models shown are my own CAD work · client data withheld</span></div></footer>
+</body>
+</html>
